@@ -38,7 +38,7 @@ The model calls out to an ORM to get, add, and update data in mysql database.
 
 ## HEROKU APP LINK
 
-* Go to the Heroku App for this repo: [Burger_Node-Express-Handlebars]https://git.heroku.com/burger-neh.git
+* Go to the Heroku App for this repo: [Burger_Node-Express-Handlebars]https://burger-neh.herokuapp.com/ 
 
 
 
