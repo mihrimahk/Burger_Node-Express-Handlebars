@@ -110,5 +110,82 @@ span {
 .label {
   font-weight: bold;
 }
+/* 
+  These rules take effect when the browser's width
+  is 640px or less.
+*/
+@media screen and (max-width: 640px) {
+	header,h2 {
+		font-size: 35px;
+	}
 
+	p {
+    	text-align: center;
+    	position: relative;
+    	right: 23%;
+    	font-size: 20px;
+	}
 
+	section {
+		width: 100%;
+	}
+
+	#burger-list {
+		margin-left: 0;
+	}
+
+	/* Hide devoured list on mobile for better user experience. */
+	#devoured-hamburgers {
+		display: none;
+	}
+
+	#hamburger-image {
+		width: 50%;
+		left: 25%;
+	}
+
+	#new-burger {
+		width: 100%;
+	}
+
+	#new-burger-submit {
+		position: relative;
+		left: 22%;
+		width: 40%;
+		height: 34px;
+		font-size: 24px;
+	}
+
+	#new-burger-text {
+		width: 90%;
+		left: 2%;
+		height: 75px;
+		font-size: 36px;
+	}
+
+	.burgers {
+		width: 90%;
+		font-size: 20px;
+		position: relative;
+		right: 4%;
+	}
+
+	.create-update-form {
+		width: 100%;
+		position: relative;
+		right: 24%;
+	}
+
+	.devour-button {
+		background-color: #4e91fd;
+		color: white;
+		font-size: 20px;
+		margin-left: -13px;
+		margin-top: -18px;
+		margin-bottom: 17px;
+	}
+
+	.form-group {
+		width: 100%;
+	}
+}
